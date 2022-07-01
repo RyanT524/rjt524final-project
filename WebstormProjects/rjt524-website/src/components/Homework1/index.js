@@ -5,7 +5,7 @@ const Homework1 = () => {
   return (
     <div className={"hw1margin"}>
       <div>
-      <h1 className={"head1"}>On Page load and After Loading</h1>
+      <h1 className={"head1"}>On Page Load and After Loading</h1>
       </div>
       {/*<div className={"column"}>*/}
       {/*<img src={pic1} width={"500"} height={"300"}/>*/}
