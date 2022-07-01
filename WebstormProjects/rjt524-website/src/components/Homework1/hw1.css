@@ -1,0 +1,72 @@
+/* Color Theme Swatches in Hex */
+:root {
+--lightgreen: #127369;
+--darkgreen: #10403B;
+--palegreen: #8AA6A3;
+--darkgrey: #4C5958;
+--lightgrey: #BFBFBF;
+}
+
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: var(--palegreen)
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black ;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab.active {
+    background-color: var(--darkgrey);
+}
+.tab:hover {
+    background-color: var(--lightgrey);
+}
+
+.tab-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.apodHead {
+    margin-left:10px;
+    margin-right:10px;
+    border-bottom: 5px solid black;
+}
+#AJAXButton {
+    background-color: var(--lightgrey);
+    margin-bottom: 5px;
+}
+#dateInput {
+    background-color: var(--lightgrey)
+}
+#desc {
+    background-color: var(--lightgreen);
+    border: 2px solid black;
+}
+.foot {
+    text-align: center;
+    padding: 3px;
+    background-color: var(--darkgrey);
+    color: white;
+}

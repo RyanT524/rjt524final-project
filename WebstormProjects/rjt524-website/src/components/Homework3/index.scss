@@ -1,0 +1,33 @@
+header {
+    margin: auto;
+    width: 50%;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+paragraph {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+}
+
+sketch-holder {
+    padding-top: 20px;
+    text-align: center;
+}
+
+sketch-holder2 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}

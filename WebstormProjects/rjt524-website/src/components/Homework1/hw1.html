@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="hw1.js" defer></script>
+    <link href="hw1.css" rel="stylesheet">
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+    <title>Ryan's Page</title>
+</head>
+<body onload="done()">
+    <header>
+        <ul class="tabs">
+            <li data-tab-target="#header1" class="active tab">Header 1</li>
+            <li data-tab-target="#header2" class="tab">Header 2</li>
+            <li data-tab-target="#header3" class="tab">Header 3</li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="header1" data-tab-content class="active">
+                <h1>Header 1</h1>
+                <p>This is Header 1</p>
+            </div>
+            <div id="header2" data-tab-content>
+                <h1>Header 2</h1>
+                <p>This is Header 2</p>
+            </div>
+            <div id="header3" data-tab-content>
+                <h1>Header 3</h1>
+                <p>This is Header 3</p>
+            </div>
+        </div>
+</header>
+
+    <div>
+        <h1 class="apodHead">APOD (Astronomy Picture of the Day)</h1>
+        <div>
+            <button type="button" id="AJAXButton">Make a request!</button>
+            <input type="date" id="dateInput" name="startDate"></input>
+        </div>
+        <div>
+            <img id="imgHolder" src="https://via.placeholder.com/150" alt="placeholder" class="w3-image"></img>
+            <p id ="desc">Placeholder desc</p>
+        </div>
+    </div>
+
+<footer>
+    <p class="foot">Author: Ryan Tabor<br>
+    <a href="mailto:rjt524@vt.edu">rjt524@vt.edu</a></p>
+</footer>
+
+</body>
+</html>
