@@ -8,8 +8,6 @@ import { faEnvelope, faHome, faProjectDiagram, faUser } from '@fortawesome/free-
 const Sidebar = () => (
   <div className={"nav-bar"}>
     <Link className={"logo"} to={''}>
-      <img src={LogoS} alt={"logo"} />
-      <img className="sub-logo"src={LogoSubtitle} alt={"slobodan"} />
     </Link>
     <nav>
       <NavLink exact="true" activeClassName={"active"} to={"/"}>

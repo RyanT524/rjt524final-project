@@ -7,6 +7,7 @@ import Homework2 from './App'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1 className={"head1"}>Exploring P5 Page:</h1>
     <Homework2 />
   </React.StrictMode>
 );

@@ -46,7 +46,10 @@ function Grid(props) {
 
 function Homework2() {
     return (
+      <>
+      <h1 className={"head1"}>Grid:</h1>
         <Grid start={1} end={79}/>
+      </>
   );
 }
 
