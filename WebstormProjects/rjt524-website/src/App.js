@@ -8,6 +8,7 @@ import Homework2 from './components/Homework2/App'
 import Homework3 from './components/Homework3'
 import Homework4 from './components/Homework4'
 import Contact from './components/Contact'
+import PageMissing from './components/PageMissing'
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path={"projects/3"} element={<Homework3 />} />
           <Route path={"projects/4"} element={<Homework4 />} />
           <Route path={"contact"} element={<Contact />} />
+          <Route path={"*"} element={<PageMissing />} />
+
         </Route>
       </Routes>
     </>
